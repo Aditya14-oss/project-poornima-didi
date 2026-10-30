@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#05070d" />
+  <meta name="description" content="A secret birthday transmission created for Poornima." />
+  <title>PROJECT: POORNIMA.exe</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <div class="scanlines" aria-hidden="true"></div>
+  <div class="cursor-glow" aria-hidden="true"></div>
+
+  <main>
+    <section id="terminal-screen" class="terminal-screen" aria-label="Secret terminal intro">
+      <div class="terminal-shell">
+        <div class="terminal-topbar">
+          <div class="traffic-lights"><i></i><i></i><i></i></div>
+          <span>POORNIMA_SYSTEM // SECURE SESSION</span>
+          <span class="topbar-right">ENCRYPTED <b>●</b></span>
+        </div>
+        <div class="terminal-content">
+          <div class="system-label"><span class="pulse-dot"></span> PRIVATE TRANSMISSION FOUND</div>
+          <pre class="ascii" aria-label="ASCII art">  ____   ___   ___  ____  _   _ ___ __  __  _
+ |  _ \ / _ \ / _ \|  _ \| \ | |_ _|  \/  |/ |
+ | |_) | | | | | | | |_) |  \| || || |\/| | |
+ |  __/| |_| | |_| |  _ <| |\  || || |  | | |
+ |_|    \___/ \___/|_| \_\_| \_|___|_|  |_|_|</pre>
+          <div id="terminal-output" class="terminal-output" aria-live="polite"></div>
+          <div class="terminal-bottom">
+            <span><span class="prompt-symbol">root@brother</span>:~$ <span class="blinking-cursor">█</span></span>
+            <span id="progress-label">WAITING FOR AUTHORIZATION</span>
+          </div>
+          <button id="enter-button" class="terminal-enter" disabled>
+            <span class="enter-key">↵</span> <span id="enter-label">INITIALIZING...</span>
+          </button>
+          <button id="skip-intro" class="text-button">Skip intro ↗</button>
+        </div>
+      </div>
+      <div class="intro-foot"><span>BUILD 10.31.26</span><span>MADE WITH ♥ BY YOUR BROTHER</span><span>NO SYSTEM IS SAFE FROM LOVE</span></div>
+    </section>
+
+    <section id="birthday-site" class="birthday-site hidden" aria-label="Birthday surprise">
+      <nav class="nav">
+        <a class="brand" href="#" aria-label="Project Poornima home"><span class="brand-mark">P.</span><span>PROJECT<span class="muted">_POORNIMA</span></span></a>
+        <div class="nav-status"><span class="pulse-dot"></span> CONNECTION: HEARTFELT</div>
+        <button id="sound-toggle" class="sound-toggle" aria-pressed="false"><span class="sound-icon">♫</span> <span id="sound-label">SOUND OFF</span></button>
+      </nav>
+
+      <section class="hero section-wrap">
+        <div class="hero-grid"></div>
+        <div class="hero-copy">
+          <div class="eyebrow"><span class="eyebrow-line"></span> A MESSAGE FROM YOUR BROTHER <span class="eyebrow-line"></span></div>
+          <h1>Happy Birthday,<br><span class="gradient-name">Poornima.</span></h1>
+          <p class="hero-sub">Some people make the world brighter just by being in it.<br class="desktop-only"> You're one of those people.</p>
+          <div class="hero-actions">
+            <button class="primary-button" id="open-appreciation"><span>See your surprise</span><span class="button-arrow">↗</span></button>
+            <button class="secondary-button" id="celebrate-button">Trigger celebration <span>✳</span></button>
+          </div>
+          <div class="hero-meta"><span><i class="meta-dot"></i> RECIPIENT: POORNIMA</span><span>STATUS: DEEPLY APPRECIATED</span></div>
+        </div>
+        <div class="hero-art" aria-hidden="true">
+          <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="orbit orbit-three"></div>
+          <div class="core-glow"></div>
+          <div class="core"><span>P</span><small>♥</small></div>
+          <div class="orbit-tag tag-top">SISTER.exe <b>RUNNING</b></div>
+          <div class="orbit-tag tag-bottom"><span class="tiny-heart">♥</span> ONE OF A KIND</div>
+          <div class="floating-code code-a">01010000 01001111</div>
+          <div class="floating-code code-b">LOVE_PROTOCOL: TRUE</div>
+          <div class="spark spark-a">✦</div><div class="spark spark-b">✧</div><div class="spark spark-c">✳</div>
+        </div>
+        <div class="scroll-cue"><span></span> SCROLL TO EXPLORE</div>
+      </section>
+
+      <section class="stats-strip">
+        <div><span class="stat-index">01 /</span><span class="stat-title">APPRECIATION</span><span class="stat-desc">A little reminder of your worth</span></div>
+        <div><span class="stat-index">02 /</span><span class="stat-title">CELEBRATION</span><span class="stat-desc">Your day, your moment</span></div>
+        <div><span class="stat-index">03 /</span><span class="stat-title">FOREVER</span><span class="stat-desc">Always in your corner</span></div>
+      </section>
+<section id="appreciation" class="appreciation">
+        <div class="appreciation-inner section-wrap">
+          <p class="eyebrow left"><span class="eyebrow-line"></span> SYSTEM_INSIGHT</p>
+          <h2>In case you<br>forget how <span class="gradient-name">special</span><br>you are.</h2>
+          <div class="appreciation-list">
+            <div><span>01</span><p>Your heart makes ordinary moments feel important.</p><b>↗</b></div>
+            <div><span>02</span><p>You deserve the same kindness you give to everyone else.</p><b>↗</b></div>
+            <div><span>03</span><p>I hope you never make yourself smaller to fit into someone else's world.</p><b>↗</b></div>
+            <div><span>04</span><p>No matter how much life changes, you'll always have me in your corner.</p><b>↗</b></div>
+          </div>
+        </div>
+      </section>
+<section class="finale section-wrap">
+        <div class="finale-kicker"><span class="pulse-dot"></span> ALL SYSTEMS POINT TO YOU</div>
+        <div class="finale-symbol">✳</div>
+        <h2>Keep shining,<br><span class="gradient-name">Poornima.</span></h2>
+        <p>The world is better with you in it.<br>And my world is better because you're my sister.</p>
+        <button id="final-celebrate" class="primary-button"><span>One more surprise</span><span class="button-arrow">✦</span></button>
+        <div class="final-signature">MADE WITH LOVE <span>♥</span> BY YOUR BROTHER</div>
+      </section>
+
+      <footer class="footer"><span>PROJECT_POORNIMA.exe</span><span>BUILT WITH HTML · CSS · JS</span><span>© FOREVER YOUR BROTHER</span></footer>
+    </section>
+  </main>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <div id="confetti-layer" class="confetti-layer" aria-hidden="true"></div>
+  <script src="script.js"></script>
+</body>
+</html>
